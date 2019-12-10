@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("VIVZ","onStop has started");
 
     }
-
+    //comment added
     @Override
     protected void onDestroy() {
         super.onDestroy();

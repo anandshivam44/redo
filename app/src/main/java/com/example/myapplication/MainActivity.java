@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     Button e;
     int counter = 0;
     TextView t;
-    //com
+    //co
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

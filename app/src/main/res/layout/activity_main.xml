@@ -1,18 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    >
+
 
     <TextView
+        android:id="@+id/aaaaaaaa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Testing commit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:fontFamily="@font/precious"
+        android:text="Shivam Anand"
+        android:textSize="85sp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </TextView>
+
+    <!--<Button
+        android:id="@+id/button_1"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Launch Map"
+        android:layout_weight="1"
+        app:layout_constraintTop_toBottomOf="@+id/button_2"
+        tools:layout_editor_absoluteX="168dp" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="launch market"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+
+        android:text="send email" />
+    <Button
+        android:id="@+id/button_4"
+
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="send Image" />-->
+
+</LinearLayout>
